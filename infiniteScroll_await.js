@@ -22,7 +22,7 @@ function handleScroll() {
   fetchAndAppendTestimonials()
 }
 
-aysnc function fetchAndAppendTestimonials() {
+async function fetchAndAppendTestimonials() {
   canFetchTestimonials = false;
   const url = createTestimonialsUrl();
   const response = await fetch(url);
